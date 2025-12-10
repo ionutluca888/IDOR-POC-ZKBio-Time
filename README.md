@@ -52,9 +52,9 @@ Cookie: session=<low-privilege-user-session>
 Result:
 Low-privilege users can obtain administrative configuration passwords.
 
-3. BioTime 9.0.5.2 Build20250428.2823 – Unauthenticated Critical IDOR (Regression)
+3. BioTime 9.5.2 Build20250428.2823 – Unauthenticated Critical IDOR (Regression)
 
-In the more recent BioTime 9.0.5.2 build, the endpoint becomes publicly accessible again.
+In the more recent BioTime 9.5.2 build, the endpoint becomes publicly accessible again.
 
 Just like in 9.0.3, an unauthenticated attacker can retrieve cleartext backup and export encryption passwords.
 
